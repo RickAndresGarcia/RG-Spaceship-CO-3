@@ -31,7 +31,6 @@ class Spaceship(Sprite):
         else:
             self.rect.x += 10
 
-
     def move_up(self):
         if self.rect.y > SCREEN_HEIGHT // 2:
             self.rect.y -= 10
